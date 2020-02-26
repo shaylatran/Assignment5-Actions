@@ -11,3 +11,8 @@ class TestCase(unittest.TestCase):
     def test2(self):
         expected = "failure"
         self.assertNotEqual(expected, task.firstrun())
+
+    def testareaofCircle(self):
+        self.radius = 2
+        self.area = task.areaofCircle(self.radius)
+        self.assertEqual(12.56, self.area)
