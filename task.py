@@ -1,5 +1,4 @@
 from math import pi
-from datetime import date
 
 
 def firstrun():
