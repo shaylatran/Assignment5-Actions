@@ -25,5 +25,5 @@ class TestCase(unittest.TestCase):
     def testnumberofDays(self):
         self.date1 = date(2020, 4, 9)
         self.date2 = date(2020, 2, 26)
-        self.num = numberofDays(self.date1, self.date2)
+        self.num = task.numberofDays(self.date1, self.date2)
         self.assertEqual(43, self.num)
