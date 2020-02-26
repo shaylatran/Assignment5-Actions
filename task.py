@@ -15,5 +15,5 @@ def firstandlastofList(list):
 
 
 def numberofDays(date1, date2):
-    num = date2 - date1
+    num = (date2 - date1).days
     return num
