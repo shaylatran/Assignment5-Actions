@@ -20,4 +20,4 @@ class TestCase(unittest.TestCase):
     def testfirstandlastofList(self):
         self.list = [1, 2, 3, 4]
         self.firstandLast = task.firstandlastofList(self.list)
-        self.assertEqual([1,4], self.firstandLast)
+        self.assertEqual([1, 4], self.firstandLast)

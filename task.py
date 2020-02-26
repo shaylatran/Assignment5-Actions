@@ -10,4 +10,4 @@ def areaofCircle(radius):
 
 
 def firstandlastofList(list):
-    return [ list[0], list[-1] ]
+    return [list[0], list[-1]]
