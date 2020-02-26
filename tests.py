@@ -1,6 +1,6 @@
 import unittest
 import task
-
+from datetime import date
 
 class TestCase(unittest.TestCase):
 
@@ -21,3 +21,9 @@ class TestCase(unittest.TestCase):
         self.list = [1, 2, 3, 4]
         self.firstandLast = task.firstandlastofList(self.list)
         self.assertEqual([1, 4], self.firstandLast)
+
+    def testnumberofDays(self):
+        self.date1 = date(2020, 4, 9)
+        self.date2 = date(2020, 2, 26)
+        self.num = numberofDays(self.date1, self.date2)
+        self.assertEqual(43, self.num)
