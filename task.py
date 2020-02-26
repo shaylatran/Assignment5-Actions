@@ -9,4 +9,4 @@ def areaofCircle(radius):
     return (pi*radius*radius)
 
 
-def firstandlastofList(list):
+# def firstandlastofList(list):
